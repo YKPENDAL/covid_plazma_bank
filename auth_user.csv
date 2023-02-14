@@ -1,0 +1,8 @@
+id,password,last_login,is_superuser,username,last_name,email,is_staff,is_active,date_joined,first_name
+1,pbkdf2_sha256$260000$tZB3wdTpv56lVxM1liqeDN$IqM18ErldZ+qqji/xCcM4vICeBh8ckdBhGglD/1XvBQ=,2021-07-31 08:45:00.623210,1,sgn,,sgnons11@gmail.com,1,1,2021-07-30 03:15:06.660709,
+2,pbkdf2_sha256$260000$rR0cSRuCsYWyP3QVVcelcn$elDk7nq+8zZeM5RA0goe7G+nj16FVxpcPwAlXRye14c=,2021-07-30 03:35:41.666388,0,ons,,sgnons11@gmail.com,0,1,2021-07-30 03:33:58.305511,
+3,pbkdf2_sha256$260000$HZoDmHlRlylbQSnlDlRDBE$nYO3yPfWcilLmsqzCIoWm2VlQ9Q+nwTuWVcn1Y1lX9M=,2021-07-31 10:17:41.553052,0,anil,,anil@gmail.com,0,1,2021-07-30 03:38:48.458724,
+4,pbkdf2_sha256$260000$OF51IDRdOFjYLB0wfHN3Y2$VtHnxJIe6INji1xsKiIUSlxW97p8Ekg006qVY2CxHNA=,2021-07-31 17:36:26.035092,0,yash,,yashpendal18@gnu.ac.in,0,1,2021-07-31 17:36:25.666084,
+5,pbkdf2_sha256$260000$u0wzlM01hRSzlnsp2UlEPW$IHaxELebz90JTHRWeem2lENFYisoKAtzjUGece0Dpbo=,2021-07-31 17:37:53.221908,0,yashvi,,yashvigandhi18@gnu.ac.in,0,1,2021-07-31 17:37:52.877370,
+6,pbkdf2_sha256$260000$Avs55IvCWy0CycbtlSUUFI$1AKqWj9UXGaIXkH7yGoxFRYkylENeyO5h4EL6uJ6Clw=,2021-07-31 17:38:28.443517,0,simran,,simranpatel18@gnu.ac.in,0,1,2021-07-31 17:38:28.128581,
+7,pbkdf2_sha256$260000$IbLJi68SQ0xPY1SJUw581B$Sq2MQc2LqwH5e5/BKWHdVZAsxl9AMSjWNaOr1m1jM7s=,2021-07-31 18:16:45.308493,0,kevin,,pandyakevin157@gmail.com,0,1,2021-07-31 17:39:10.440658,

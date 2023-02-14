@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block content %} 
+
+
+<!--Donner--> 
+<div class="container py-5">
+	<form method="POST">
+		{% csrf_token %}
+		<div class="loginfrm">
+			<div class="logname">
+				<h1>Donate Blood</h1>
+			</div>
+			<div class="row">
+				<tr>
+					<td>
+						<input type="text" placeholder="Fullname" name="fullname" maxlength="100" required id="id_fullname">
+					</td>
+				</tr>
+				</div>
+				
+				<div class="row">
+				<tr>
+					<td>
+						<input type="number" placeholder="Contact Number" name="phone_no" required id="id_phone_no">
+					</td>
+				</tr>
+				</div>
+				<div class="row">
+					<select name="is_diabitic" id="id_is_diabitic">
+					<option value="">Are you Diabetic</option>
+					<br>
+					<option value="False">No</option>
+					<option value="True">Yes</option>
+					</select>
+			</div>
+				<div class="row">
+				<tr>
+					<td>
+						<input type="text" placeholder="Blood group:" name="BloodGrp" maxlength="20" required id="id_BloodGrp">
+					</td>
+				</tr>
+				</div>
+				<div class="row">
+				<tr>
+					<td>
+						<input type="number" placeholder="Enter your Age" name="Age" required id="id_Age">
+					</td>
+				</tr>
+				</div>
+				<div class="row">
+				<tr>
+					<td>
+						<input type="text" placeholder="City" name="city" maxlength="50" required id="id_city">
+					</td>
+				</tr>
+				</div>
+				<div class="row">
+				<tr>
+					<td>
+						<input type="text" placeholder="State" name="state" maxlength="50" required id="id_state">
+					</td>
+				</tr>
+				</div>
+				<div class="row">
+				<tr>
+					<th>
+						<label for="id_Bid">Bid:</label>
+					</th>
+					<td>
+						<select name="Bid" required id="id_Bid">
+							<option value="" selected>---------</option>
+
+							<option value="1">Banks object (1)</option>
+						
+							<option value="2">Banks object (2)</option>
+						
+							<option value="3">Banks object (3)</option>
+						</select>
+					</td>
+				</tr>
+				</div>
+				<br/><br/>
+				<div class="row">
+					<input type="submit" name="login" value="Request">
+				</div>
+		</div>
+	</form>
+	
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %} 
+
+
+{% if is_show %}
+    <div>
+        <form method="POST" action="{% url 'RequesterBloodIsAvailable' %}">
+            {% csrf_token %}
+            <p>Blood Group : </p>
+            <input type="text" name="BloodGrp" value="{{ BloodGrp }}">
+            <p> Request For the Blood Group {{BloodGrp}} </p>
+            <button class="btn btn-primary" type="submit">Request</button>
+        </form>
+
+    </div>
+{% endif %}
+
+{% if is_data %}
+
+        <h3>for {{DonnerData.0}} Blood Grp </h3>
+        <h4> you have to go to {{DonnerData.1}},{{DonnerData.2}}</h2>
+{% endif %}
+
+{% endblock %}
